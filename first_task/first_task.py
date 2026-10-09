@@ -8,14 +8,17 @@ student_grade = []
 student_name = []
 
 for student in students:
-    student_data = student['name'],student['grades']
+    student_data = student['name'], student['grades']
     student_name.append(student_data[0])
     student_grade.append(student_data[1])
 
-average_grade = {student_name[i] : sum(student_grade[i])/len(student_grade[i]) for i in range(len(student_grade))}
+average_grade = {
+    student_name[i]: sum(student_grade[i]) / len(student_grade[i]) 
+    for i in range(len(student_grade))
+}
 max_grade = []
 
-for key,value in average_grade.items():
+for key, value in average_grade.items():
     max_grade.append([value,key])
 
-print(max(max_grade)[1],average_grade)
+print(max(max_grade)[1], average_grade)
