@@ -6,7 +6,12 @@ items = [
     ("milk", "dairy")
 ]
 
-classifier = {items[i][1]: [] for i in range(len(items))}
+classifier = {}
+
+for pair in items:
+    value, key = pair
+    if key not in classifier:
+        classifier[key] = []
 
 for pair in items:
     value, key = pair
