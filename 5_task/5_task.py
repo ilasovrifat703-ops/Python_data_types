@@ -10,7 +10,6 @@ subject_dict = {}
 for element in data:
     subject_dict[element['subject']] = {}
 
-
 for element in data:
     subject_dict[element['subject']][element['student']] = element['grade']
 
