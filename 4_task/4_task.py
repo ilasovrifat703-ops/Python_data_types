@@ -6,11 +6,7 @@ items = [
     ("milk", "dairy")
 ]
 
-classifier = dict()
-for pair in items:
-    key,value = pair
-    if key not in classifier:
-        classifier[value] = []
+classifier = {items[i][1]: [] for i in range(len(items))}
 
 for pair in items:
     value, key = pair
