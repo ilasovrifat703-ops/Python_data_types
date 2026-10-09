@@ -1,0 +1,161 @@
+<mxfile host="Electron">
+  <diagram name="Страница-1" id="RC3sDr9iO-9zFMNjTlY6">
+    <mxGraphModel dx="822" dy="1748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9N100QrqHMXBDXqndYT0-3" edge="1" parent="1" source="9N100QrqHMXBDXqndYT0-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="-960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9N100QrqHMXBDXqndYT0-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontSize=11;" value="Начало" vertex="1">
+          <mxGeometry height="40" width="120" x="360" y="-1040" as="geometry" />
+        </mxCell>
+        <mxCell id="9N100QrqHMXBDXqndYT0-5" edge="1" parent="1" source="9N100QrqHMXBDXqndYT0-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="-840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9N100QrqHMXBDXqndYT0-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" value="список students, внутри которого словари в виде (name : имя, grades : список оценок)" vertex="1">
+          <mxGeometry height="80" width="120" x="360" y="-960" as="geometry" />
+        </mxCell>
+        <mxCell id="9N100QrqHMXBDXqndYT0-7" edge="1" parent="1" source="9N100QrqHMXBDXqndYT0-6" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="-720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9N100QrqHMXBDXqndYT0-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" value="пустые списки student_name, student_grade" vertex="1">
+          <mxGeometry height="80" width="120" x="360" y="-840" as="geometry" />
+        </mxCell>
+        <mxCell id="9N100QrqHMXBDXqndYT0-9" edge="1" parent="1" source="9N100QrqHMXBDXqndYT0-8" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="-600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9N100QrqHMXBDXqndYT0-15" edge="1" parent="1" source="9N100QrqHMXBDXqndYT0-8" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9N100QrqHMXBDXqndYT0-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="-680" />
+              <mxPoint x="520" y="-310" />
+              <mxPoint x="420" y="-310" />
+            </Array>
+            <mxPoint x="410" y="-300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9N100QrqHMXBDXqndYT0-8" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=11;" value="for student in students" vertex="1">
+          <mxGeometry height="80" width="120" x="360" y="-720" as="geometry" />
+        </mxCell>
+        <mxCell id="9N100QrqHMXBDXqndYT0-12" edge="1" parent="1" source="9N100QrqHMXBDXqndYT0-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="-480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9N100QrqHMXBDXqndYT0-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" value="кортеж student_data со значениями ключей name,grades&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="120" x="360" y="-600" as="geometry" />
+        </mxCell>
+        <mxCell id="9N100QrqHMXBDXqndYT0-14" edge="1" parent="1" source="9N100QrqHMXBDXqndYT0-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" target="9N100QrqHMXBDXqndYT0-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="-360" />
+              <mxPoint x="310" y="-360" />
+              <mxPoint x="310" y="-680" />
+            </Array>
+            <mxPoint x="280" y="-680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9N100QrqHMXBDXqndYT0-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontSize=11;" value="добавление в student_name значения кл. name и добавление в student_grade значение кл. grades" vertex="1">
+          <mxGeometry height="80" width="120" x="360" y="-480" as="geometry" />
+        </mxCell>
+        <mxCell id="9N100QrqHMXBDXqndYT0-17" edge="1" parent="1" source="9N100QrqHMXBDXqndYT0-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="-160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9N100QrqHMXBDXqndYT0-19" edge="1" parent="1" source="9N100QrqHMXBDXqndYT0-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="-30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9N100QrqHMXBDXqndYT0-22" edge="1" parent="1" source="9N100QrqHMXBDXqndYT0-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="-110" />
+              <mxPoint x="510" y="130" />
+              <mxPoint x="420" y="130" />
+            </Array>
+            <mxPoint x="420" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9N100QrqHMXBDXqndYT0-16" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=11;" value="i = 0; i &amp;lt; len(student_grade)); i += 1" vertex="1">
+          <mxGeometry height="80" width="120" x="360" y="-150" as="geometry" />
+        </mxCell>
+        <mxCell id="9N100QrqHMXBDXqndYT0-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontSize=11;" value="пустой словарь average_grade = {}" vertex="1">
+          <mxGeometry height="80" width="120" x="360" y="-280" as="geometry" />
+        </mxCell>
+        <mxCell id="9N100QrqHMXBDXqndYT0-21" edge="1" parent="1" source="9N100QrqHMXBDXqndYT0-20" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9N100QrqHMXBDXqndYT0-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="80" />
+              <mxPoint x="320" y="80" />
+              <mxPoint x="320" y="-110" />
+            </Array>
+            <mxPoint x="320" y="-110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9N100QrqHMXBDXqndYT0-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontSize=11;" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;добавляем в average_grade (имя студента : средняя оценка)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="360" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="9N100QrqHMXBDXqndYT0-24" edge="1" parent="1" source="9N100QrqHMXBDXqndYT0-23" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="279.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9N100QrqHMXBDXqndYT0-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontSize=11;" value="max_grade = [ ]" vertex="1">
+          <mxGeometry height="80" width="120" x="360" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="9N100QrqHMXBDXqndYT0-26" edge="1" parent="1" source="9N100QrqHMXBDXqndYT0-25" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9N100QrqHMXBDXqndYT0-29" edge="1" parent="1" source="9N100QrqHMXBDXqndYT0-25" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520.04" y="320" />
+              <mxPoint x="520.04" y="560" />
+              <mxPoint x="420.04" y="560" />
+              <mxPoint x="420.04" y="600" />
+            </Array>
+            <mxPoint x="420.04" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9N100QrqHMXBDXqndYT0-25" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=11;" value="перебор key,value из average_grade" vertex="1">
+          <mxGeometry height="80" width="120" x="360" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="9N100QrqHMXBDXqndYT0-28" edge="1" parent="1" source="9N100QrqHMXBDXqndYT0-27" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9N100QrqHMXBDXqndYT0-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="520" />
+              <mxPoint x="320" y="520" />
+              <mxPoint x="320" y="320" />
+            </Array>
+            <mxPoint x="320" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9N100QrqHMXBDXqndYT0-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontSize=11;" value="добавление в max_grade списка вида: значение,ключ" vertex="1">
+          <mxGeometry height="80" width="120" x="360" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="9N100QrqHMXBDXqndYT0-30" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=11;" value="вывод ученика с макс. баллом,вывод словаря average_grade" vertex="1">
+          <mxGeometry height="80" width="120" x="360" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="tuy4XJRwhpvcmfgDHri5-4" edge="1" parent="1" source="tuy4XJRwhpvcmfgDHri5-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" target="9N100QrqHMXBDXqndYT0-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tuy4XJRwhpvcmfgDHri5-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontSize=11;" value="Конец" vertex="1">
+          <mxGeometry height="40" width="120" x="360" y="720" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
